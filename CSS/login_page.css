@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+  }
+body{
+    background-image: url(/image/background.jpeg);
+    color: #FFF;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;;
+}
+
+.login-with button img{
+    width: 25px;
+    margin-right: 20px;
+}
+.login-with{
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.login-with button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 62px;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;;
+}
+
+.google{
+    background-color: #fff;
+    border: 1px solid #999;
+}
+
+.facebook{
+    background-color: #0080ff;
+    border: 1px solid #0080ff;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 100px 0;
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h1:before{
+    background-color: #eb085f;
+    display: block;
+    width: 515px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+h1:after{
+    background-color: #eb085f;
+    display: block;
+    width: 515px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 320px;
+    height: 320px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.title p{
+    font-size: 35px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sign-up a{
+    color:  #eb085f;
+    font-size: 22px;
+}
