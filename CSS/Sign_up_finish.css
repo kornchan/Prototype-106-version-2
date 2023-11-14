@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@media screen and (max-width:1080px){
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+body{
+    background-image: url(/image/bg_signup.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+
+.image img{
+    width: 620px;
+    height: 630px;
+}
+
+.title{
+    text-align: center;
+    margin-top: -100px;
+}
+.title h1{
+    font-size: 70px;
+    color: #000;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form div{
+    width: 100%;
+    max-width: 40vh;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+input{
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: .009375em;
+    box-sizing: border-box;
+    width: 45vh;
+    transition: ease 0.2;
+    border: none;
+    border-bottom: 2px solid #dd1958;
+    border-radius: 4px 4px 0 0;
+    background: transparent;
+    height: 140px;
+    margin-left: 10px;
+}
+
+.lock-box i{
+    color: #a90a73;
+    font-size: 75px;
+}
+span{
+    border-right: 2px solid #dd1958;
+    border-radius: 4px 4px 0 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    border-bottom: #a90a73 solid 2px;
+}
+
+.lock-box,.google-box{
+    margin-left: -25px;
+}
+
+.sign-up{
+    margin-top: 7em;
+}
+.bg{
+    transform: rotate(-35deg);
+    z-index: -111;
+
+}
+.bg img{
+    max-width: 100%;
+    width: 55em;
+    z-index: -111;
+    padding-left: 400px;
+    padding-top: 200px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -340px;
+    z-index: 1;
+}
+.btn{
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    background: #ff1494;
+    width: 490px;
+    border: #ff1494 solid 1px;
+    border-radius: 50px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn a{
+    color: #fff;
+    z-index: 1;
+}
+}
