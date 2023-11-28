@@ -11,6 +11,8 @@
 
 body, html {
     height: 100%;
+    margin: 0;
+    overflow: hidden;
   }
 body{
     background-image: url(/image/background.jpeg);
@@ -166,11 +168,13 @@ header{
         height: 140px;
         font-size: 45px;
         font-family: 'Raleway', sans-serif;
+        text-decoration: none;
     }
     
     .google{
         background-color: #fff;
         border: 1px solid #999;
+        
     }
     
     .facebook{
@@ -245,6 +249,19 @@ header{
         color:  #ff1494;
         font-size: 55px;
     }
-    
-    
+    button a:visited{
+        text-decoration: none;
+        font-size: 45px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #000000;
+    }
+    button a:link{
+        text-decoration: none;
+        font-size: 45px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: #000000;
+    }
+  
 }
